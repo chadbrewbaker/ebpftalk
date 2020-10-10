@@ -45,4 +45,5 @@ All things eBPF
 
 * towards crypto signed data lineage
 
+* Bolt/propeller - link permuations and live function splitting for cache efficency - can we eBPF to re-link on the fly for iterative code (molecular dynamics, CFD, ..., rebuilds of a codebase) ?
 
