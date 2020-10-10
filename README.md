@@ -47,3 +47,7 @@ All things eBPF
 
 * Bolt/propeller - link permuations and live function splitting for cache efficency - can we eBPF to re-link on the fly for iterative code (molecular dynamics, CFD, ..., rebuilds of a codebase) ?
 
+* eBPF feedback to generate upstream AST matchers for static lints in the CI.
+
+* eBPF expectation tests - could we have eBPF in the browser? Analoge to Neo - re-writing the IO?  Could eBPF be used to create a jHipster on steroids?
+
