@@ -20,3 +20,29 @@ All things eBPF
 [Kernel tree eBPF samples](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/samples/bpf)
 
 [rBPF](https://github.com/qmonnet/rbpf) - user space eBPF in Rust - use BPF on Linux containers like AWS Lambda that don't support eBPF.
+
+
+----
+* Unix monads (need STDERR, environment variables, and command line args too..) (shell monad)[http://okmij.org/ftp/Computation/monadic-shell.html]
+
+* [Nanosecond](https://www.youtube.com/watch?v=9eyFDBPk4Yw) - Grace Hopper explains latency to Admirals with a foot of wire.
+
+* [Performance Matters](https://www.youtube.com/watch?v=koTf7u0v41o) - Using simple stats to slow threads and understand why code is slow.
+
+* [Language Level IO Typing](http://learnyouahaskell.com/input-and-output)
+
+* [IO Typing with Clang Anylizer] (https://llvm.org/devmtg/2012-11/Zaks-Rose-Checker24Hours.pdf)
+
+* [Not Hotdog dead code elimination](https://github.com/tensorflow/tensorflow/pull/7832)
+
+* My stripped version of sqlite.
+
+* eBPF condoms
+
+* [Whole Program LLVM](https://github.com/travitch/whole-program-llvm)
+
+* eBPF -> lcov?
+
+* towards crypto signed data lineage
+
+
