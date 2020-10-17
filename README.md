@@ -5,7 +5,37 @@ All things eBPF
 man bpf
 ```
 
+LLVM family languages -> eBPF bytecode -> machine code to run in Kernel
+
+Static analysis to prove the code is safe.
+No loops.
+No bad pointer de-references.
+Size restrictions.
+Always halts.
+
+
+kprobe (when_event_happens, run_this())
+k_ret probe
+uprobe - userspace probes
+
+
+[IOVISOR project](https://www.iovisor.org/)
+eBPF, bcc (tools for eBPF), XDP (eXpress Data Path) bare metal packet processing
+
+
+
+[seccomp-bpf Docker settings](https://docs.docker.com/engine/security/seccomp/)
+```bash
+# Set secccomp to YOLO
+docker run --rm -it --security-opt seccomp=unconfined debian:jessie \
+    unshare --map-root-user --user sh -c whoami
+```
+
 [eBPF Superpowers - DockerCon 2019](https://www.youtube.com/watch?v=4SiWL5tULnQ)
+Liz Rice of Aqua Security livecodes some eBPF programs, shows commoon errors given by the verifyer.
+
+[Understanding eBPF in a Hurry](https://www.youtube.com/watch?v=BNTQ8CNv7A0)
+Ray Jenkins of Segment.
 
 [How io_uring and eBPF Will Revolutionize Programming in Linux](https://thenewstack.io/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/) - eBPF at ScyllaDB.
 
