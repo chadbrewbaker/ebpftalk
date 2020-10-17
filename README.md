@@ -1,7 +1,11 @@
 # ebpftalk
 All things eBPF
 
+```bash
+man bpf
+```
 
+[eBPF Superpowers - DockerCon 2019](https://www.youtube.com/watch?v=4SiWL5tULnQ)
 
 [How io_uring and eBPF Will Revolutionize Programming in Linux](https://thenewstack.io/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/) - eBPF at ScyllaDB.
 
