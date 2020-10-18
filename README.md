@@ -1,6 +1,17 @@
 # ebpftalk
 All things eBPF
 
+In the begining ...
+
+[The BSD Packet Filter:
+A New Architecture for User-level Packet Capture - Winter USENIX 1993](https://www.tcpdump.org/papers/bpf-usenix93.pdf)
+20x faster than state of the art.
+
+
+
+
+
+
 ```bash
 man bpf
 ```
@@ -19,8 +30,12 @@ k_ret probe
 uprobe - userspace probes
 
 
+
+[eBPF at Facebook](https://www.youtube.com/watch?v=ZYBXZFKPS28)
+Alexei Starovoitov - original author of eBPF kernel patch
+
 [IOVISOR project](https://www.iovisor.org/)
-eBPF, bcc (tools for eBPF), XDP (eXpress Data Path) bare metal packet processing
+eBPF, bcc (eBpf Compiler Collection), XDP (eXpress Data Path) bare metal packet processing
 
 
 
@@ -35,7 +50,7 @@ docker run --rm -it --security-opt seccomp=unconfined debian:jessie \
 Liz Rice of Aqua Security livecodes some eBPF programs, shows commoon errors given by the verifyer.
 
 [Understanding eBPF in a Hurry](https://www.youtube.com/watch?v=BNTQ8CNv7A0)
-Ray Jenkins of Segment.
+Ray Jenkins of Segment (which just merged with Twillio)
 
 [How io_uring and eBPF Will Revolutionize Programming in Linux](https://thenewstack.io/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/) - eBPF at ScyllaDB.
 
