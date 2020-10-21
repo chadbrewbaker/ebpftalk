@@ -76,6 +76,13 @@ Collection of examples to trace C, JVM, .Net, Node, whole Docker Containters,
 
 [ProfilingJVM	Applications in	Production](https://www.usenix.org/sites/default/files/conference/protected-files/srecon18americas_slides_goldshtein.pdf)
 
+
+-----
+Building bcc tools Under WSL2
+
+[Microslft WSL2 Linux Releases](https://github.com/microsoft/WSL2-Linux-Kernel/releases)
+
+[GCC10 breaks the WSL2 Linux Build](https://lkml.org/lkml/2020/1/29/494)
 ----
 * Unix monads (need STDERR, environment variables, and command line args too..) (shell monad)[http://okmij.org/ftp/Computation/monadic-shell.html]
 
