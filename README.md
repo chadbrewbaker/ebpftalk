@@ -71,6 +71,10 @@ Ray Jenkins of Segment (which just merged with Twillio)
 
 [rBPF](https://github.com/qmonnet/rbpf) - user space eBPF in Rust - use BPF on Linux containers like AWS Lambda that don't support eBPF.
 
+[Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop)
+Collection of examples to trace C, JVM, .Net, Node, whole Docker Containters, 
+
+[ProfilingJVM	Applications in	Production](https://www.usenix.org/sites/default/files/conference/protected-files/srecon18americas_slides_goldshtein.pdf)
 
 ----
 * Unix monads (need STDERR, environment variables, and command line args too..) (shell monad)[http://okmij.org/ftp/Computation/monadic-shell.html]
